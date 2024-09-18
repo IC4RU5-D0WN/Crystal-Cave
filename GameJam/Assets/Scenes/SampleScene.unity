@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc06137568f7be9449d0c1bd3fd97a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 4115416703738517525, guid: ed2d6d956c119cd43bf30d911c1d32a9, type: 3}
   firepoint: {fileID: 99050922}
   fireForce: 20
 --- !u!212 &1206638925
@@ -1375,13 +1375,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206638923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.912, y: 0.01, z: 0}
-  m_LocalScale: {x: 0.04, y: 0.1119, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.9800002, z: 0}
+  m_LocalScale: {x: 0.26666665, y: 0.746, z: 0.16666667}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 99050922}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1916557986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366124517
 GameObject:
@@ -1803,10 +1803,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544066340161bf240909f916a1cdd636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 1
   cam: {fileID: 519420031}
-  weapon: {fileID: 0}
-  rb: {fileID: 0}
+  weapon: {fileID: 1206638924}
+  rb: {fileID: 1916557983}
 --- !u!212 &1916557985
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1871,7 +1871,8 @@ Transform:
   m_LocalPosition: {x: -3.912, y: -0.13700002, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 6}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1206638926}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -1885,4 +1886,3 @@ SceneRoots:
   - {fileID: 384648597}
   - {fileID: 791751300}
   - {fileID: 1618952966}
-  - {fileID: 1206638926}

@@ -48,7 +48,6 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Coin"))
         {
             Destroy(other.gameObject);      
-         //   cm.CoinCount++;
         }
     }
 }
